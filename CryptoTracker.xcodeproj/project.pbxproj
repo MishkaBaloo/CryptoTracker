@@ -16,6 +16,7 @@
 		CE64CA9B2BFBFC8400816A3C /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64CA9A2BFBFC8400816A3C /* Double.swift */; };
 		CED02B4D2BFCB43F00E73FDD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED02B4C2BFCB43F00E73FDD /* HomeViewModel.swift */; };
 		CED02B502BFCBB8D00E73FDD /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED02B4F2BFCBB8D00E73FDD /* CoinDataService.swift */; };
+		CED02B532BFCD80C00E73FDD /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED02B522BFCD80C00E73FDD /* NetworkingManager.swift */; };
 		CED8B0D12BFB609700593FF3 /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED8B0D02BFB609700593FF3 /* CryptoTrackerApp.swift */; };
 		CED8B0D32BFB609700593FF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED8B0D22BFB609700593FF3 /* ContentView.swift */; };
 		CED8B0D82BFB609800593FF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED8B0D72BFB609800593FF3 /* Preview Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		CE64CA9A2BFBFC8400816A3C /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		CED02B4C2BFCB43F00E73FDD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		CED02B4F2BFCBB8D00E73FDD /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		CED02B522BFCD80C00E73FDD /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		CED8B0CD2BFB609700593FF3 /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED8B0D02BFB609700593FF3 /* CryptoTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackerApp.swift; sourceTree = "<group>"; };
 		CED8B0D22BFB609700593FF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,6 +122,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		CED02B512BFCD7A200E73FDD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CED02B522BFCD80C00E73FDD /* NetworkingManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		CED8B0C42BFB609700593FF3 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				CED8B0D02BFB609700593FF3 /* CryptoTrackerApp.swift */,
+				CED02B512BFCD7A200E73FDD /* Utilities */,
 				CED8B0E02BFB635100593FF3 /* Extensions */,
 				CED02B4E2BFCBB5700E73FDD /* Services */,
 				CE64CA932BFBCEB300816A3C /* Models */,
@@ -247,6 +258,7 @@
 				CED8B0D12BFB609700593FF3 /* CryptoTrackerApp.swift in Sources */,
 				CE64CA902BFBB01600816A3C /* CircleButtonView.swift in Sources */,
 				CED8B0E22BFB636600593FF3 /* Color.swift in Sources */,
+				CED02B532BFCD80C00E73FDD /* NetworkingManager.swift in Sources */,
 				CE64CA922BFBB61C00816A3C /* CircleButtonAnimationView.swift in Sources */,
 				CE64CA992BFBF7A600816A3C /* PreviewProvider.swift in Sources */,
 				CE64CA9B2BFBFC8400816A3C /* Double.swift in Sources */,
