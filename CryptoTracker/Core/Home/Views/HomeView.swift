@@ -22,6 +22,8 @@ struct HomeView: View {
             VStack {
                 homeHeader
                 
+                SearchBarView(searchText: $vm.serchText)
+                
                 columnTitles
                 
                 .font(.caption)
@@ -46,6 +48,7 @@ struct HomeView: View {
 #Preview {
     NavigationView(content: {
         HomeView()
+//            .preferredColorScheme(.dark)
             .toolbar(.hidden, for: .automatic)
     })
     .environmentObject(DeveloperPreview.instance.homeVM)
