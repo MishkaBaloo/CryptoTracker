@@ -52,7 +52,7 @@ struct HomeView: View {
 #Preview {
     NavigationView(content: {
         HomeView()
-//            .preferredColorScheme(.dark)
+            .preferredColorScheme(.dark)
             .toolbar(.hidden, for: .automatic)
     })
     .environmentObject(DeveloperPreview.instance.homeVM)
