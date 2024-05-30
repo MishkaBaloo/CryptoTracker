@@ -52,11 +52,11 @@ class DeveloperPreview {
        maxSupply: 21000000,
        ath: 61712,
        athChangePercentage: -0.97589,
-       athDate: "2021-03-13T20:49:26.606Z",
+       athDate: "2024-03-13T20:49:26.606Z", // cut and paste to fix current date on ChartView -> "2021-03-13T20:49:26.606Z"
        atl: 67.81,
        atlChangePercentage: 90020.24075,
        atlDate: "2013-07-06T00:00:00.000Z",
-       lastUpdated: "2021-03-13T23:18:10.268Z",
+       lastUpdated: "2024-03-13T23:18:10.268Z", // cut and paste to fix current date on ChartView -> stage from "2021-03-13T23:18:10.268Z"
        sparklineIn7D: SparklineIn7D(price: [
            54019.26878317463,
            53718.060935791524,
