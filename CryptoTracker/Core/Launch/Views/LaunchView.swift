@@ -30,7 +30,7 @@ struct LaunchView: View {
 
                 if showLoadingText {
                     HStack(spacing: 0) {
-                        ForEach(loadingText.indices) { index in
+                        ForEach(loadingText.indices, id: \.self) { index in
                             Text(loadingText[index])
                                 .font(.callout)
                                 .fontWeight(.semibold)

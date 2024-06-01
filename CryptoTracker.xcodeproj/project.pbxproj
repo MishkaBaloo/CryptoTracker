@@ -41,7 +41,6 @@
 		CED02B502BFCBB8D00E73FDD /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED02B4F2BFCBB8D00E73FDD /* CoinDataService.swift */; };
 		CED02B532BFCD80C00E73FDD /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED02B522BFCD80C00E73FDD /* NetworkingManager.swift */; };
 		CED8B0D12BFB609700593FF3 /* CryptoTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED8B0D02BFB609700593FF3 /* CryptoTrackerApp.swift */; };
-		CED8B0D32BFB609700593FF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED8B0D22BFB609700593FF3 /* ContentView.swift */; };
 		CED8B0D82BFB609800593FF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED8B0D72BFB609800593FF3 /* Preview Assets.xcassets */; };
 		CED8B0DF2BFB620200593FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED8B0DE2BFB620200593FF3 /* Assets.xcassets */; };
 		CED8B0E22BFB636600593FF3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED8B0E12BFB636600593FF3 /* Color.swift */; };
@@ -87,7 +86,6 @@
 		CED02B522BFCD80C00E73FDD /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		CED8B0CD2BFB609700593FF3 /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED8B0D02BFB609700593FF3 /* CryptoTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTrackerApp.swift; sourceTree = "<group>"; };
-		CED8B0D22BFB609700593FF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CED8B0D72BFB609800593FF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CED8B0DE2BFB620200593FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Resources/Assets.xcassets; sourceTree = "<group>"; };
 		CED8B0E12BFB636600593FF3 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -281,7 +279,6 @@
 				CED02B4E2BFCBB5700E73FDD /* Services */,
 				CE64CA932BFBCEB300816A3C /* Models */,
 				CE64CA872BFBAE0700816A3C /* Core */,
-				CED8B0D22BFB609700593FF3 /* ContentView.swift */,
 				CED8B0DE2BFB620200593FF3 /* Assets.xcassets */,
 				CED8B0D62BFB609800593FF3 /* Preview Content */,
 			);
@@ -405,7 +402,6 @@
 				CE85B7222C011AAC00B409DF /* XMarkButton.swift in Sources */,
 				CEA1FE702C0910D400B9B51F /* Date.swift in Sources */,
 				CED02B4D2BFCB43F00E73FDD /* HomeViewModel.swift in Sources */,
-				CED8B0D32BFB609700593FF3 /* ContentView.swift in Sources */,
 				CE8E0EE32BFF625500CE304A /* LocalFileManager.swift in Sources */,
 				CE85B71C2C00E1E400B409DF /* MarketDataModel.swift in Sources */,
 				CE64CA8C2BFBAE4500816A3C /* HomeView.swift in Sources */,
